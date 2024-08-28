@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids' Q & A Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="style.css">
+    <script src="Script.js"></script>
+    
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to Brainy Kids' Q & A!</h1>
+        <p>Select a category to explore fun questions and answers!</p>
+    </header>
+
+    <section>
+        <div class="category" onclick="goToCategory('science')">
+            <h2>Science</h2>
+            <p>Explore the wonders of science!</p>
+        </div>
+        <div class="category" onclick="goToCategory('animals')">
+            <h2>Animals</h2>
+            <p>Discover amazing animals!</p>
+        </div>
+        <div class="category" onclick="goToCategory('space')">
+            <h2>Space</h2>
+            <p>Learn about the vast universe!</p>
+        </div>
+        
+        
+
+        
+
+    </section>
+    
+    
+<!DOCTYPE html>
+    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids' Activities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kids' Activities</h1>
+        <p>Explore our fun quiz and interactive story!</p>
+    </header>
+
+    <!-- Quiz Section -->
+    <section id="quiz">
+        <h2>Kids' Quiz</h2>
+        <div class="question">
+            <h3>What is the largest planet in our solar system?</h3>
+            <button onclick="checkAnswer('wrong')">Earth</button>
+            <button onclick="checkAnswer('wrong')">Mars</button>
+            <button onclick="checkAnswer('correct')">Jupiter</button>
+            <button onclick="checkAnswer('wrong')">Venus</button>
+        </div>
+        <div class="question">
+            <h3>Which animal is known as the king of the jungle?</h3>
+            <button onclick="checkAnswer('wrong')">Elephant</button>
+            <button onclick="checkAnswer('correct')">Lion</button>
+            <button onclick="checkAnswer('wrong')">Tiger</button>
+            <button onclick="checkAnswer('wrong')">Giraffe</button>
+        </div>
+    
+    </section>
+
+    <section id="story">
+        <h2>Interactive Story Adventure</h2>
+        <div class="story-part" id="part1">
+            <h3>You find yourself in a dense forest. Do you:</h3>
+            <button onclick="goToPart('part2')">Follow the sound of water</button>
+            <button onclick="goToPart('part3')">Climb a tall tree to look around</button>
+        </div>
+
+        <div class="story-part" id="part2" style="display:none;">
+            <h3>You reach a sparkling river. Do you:</h3>
+            <button onclick="goToPart('part4')">Cross the river using a fallen tree</button>
+            <button onclick="goToPart('part5')">Walk along the riverbank</button>
+        </div>
+
+        <div class="story-part" id="part3" style="display:none;">
+            <h3>From the tree, you see a distant mountain. Do you:</h3>
+            <button onclick="goToPart('part6')">Head towards the mountain</button>
+            <button onclick="goToPart('part7')">Stay in the tree and wait</button>
+        </div>
+
+    
+    </section>
+
+    <footer>
+        <p>© 2024 'Brainy Kids' Website</p>
+    </footer>
+
+
+</body>
+</html>
+
+    
+    
+  
+</body> 
+</html>
+
+
+
+
